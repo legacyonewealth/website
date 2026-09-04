@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 90" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGradientLight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2C992"/>
+      <stop offset="50%" stop-color="#D8B368"/>
+      <stop offset="100%" stop-color="#C5A059"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .brand-title-white {
+      font-family: 'Cinzel', 'Cormorant Garamond', 'Georgia', serif;
+      font-size: 38px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+    }
+    .brand-wealth-white {
+      font-family: 'Cinzel', 'Cormorant Garamond', 'Georgia', serif;
+      font-size: 38px;
+      font-weight: 300;
+      letter-spacing: 0.12em;
+    }
+    .brand-subtitle-white {
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      font-size: 8.5px;
+      font-weight: 700;
+      letter-spacing: 0.42em;
+    }
+  </style>
+  <!-- Main Brand Name -->
+  <g transform="translate(0, 42)">
+    <!-- LEGACYONE in Gold -->
+    <text x="0" y="0" class="brand-title-white" fill="url(#goldGradientLight)">LEGACYONE</text>
+    <!-- WEALTH in Off-White -->
+    <text x="315" y="0" class="brand-wealth-white" fill="#F5F2ED">WEALTH</text>
+  </g>
+  <!-- Thin Accent Line -->
+  <line x1="2" y1="56" x2="520" y2="56" stroke="#D8B368" stroke-width="0.75" stroke-opacity="0.5" />
+  <!-- Subtitle Tagline -->
+  <text x="4" y="74" class="brand-subtitle-white" fill="#D8B368">CREATE, GROW, PRESERVE – LEGACY</text>
+</svg>

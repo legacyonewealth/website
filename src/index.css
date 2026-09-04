@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', 'Georgia', 'Times New Roman', serif;
+    --font-sans: 'Plus Jakarta Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-display: 'Cinzel', 'Cormorant Garamond', Georgia, serif;
+    --color-bg: #F5F2ED;
+    --color-green: #0F2D2E;
+    --color-gold: #A68B5B;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #1A1A1A;
+    background-color: #F5F2ED;
+  }
+
+  h1, h2, h3, .serif-display, .font-serif {
+    font-family: var(--font-serif);
+  }
+
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .sans-ui {
+    font-family: var(--font-sans);
+  }
+}
+
+.text-green {
+  color: #0F2D2E;
+}
+
+.bg-green {
+  background-color: #0F2D2E;
+}
+
+.border-legacy {
+  border-color: rgba(15, 45, 46, 0.15);
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+/* Custom subtle scrollbar in artistic palette */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #EFECE6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #A68B5B;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8C7243;
+}
