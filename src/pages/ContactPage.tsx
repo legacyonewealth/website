@@ -505,9 +505,14 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
                   </div>
                 </div>
 
-                {/* Interactive Map Visual Placeholder */}
+                {/* Interactive Map Link */}
                 <div className="pt-2">
-                  <div className="rounded-xl bg-[#0F2D2E] p-5 text-white flex flex-col justify-between h-36 relative overflow-hidden border border-white/10">
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=5th+Floor%2C+CLC+Tower%2C+Sector-44%2C+Gurgaon%2C+Haryana+122003"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block rounded-xl bg-[#0F2D2E] p-5 text-white flex flex-col justify-between h-36 relative overflow-hidden border border-white/10 hover:border-[#A68B5B]/50 hover:shadow-lg transition-all duration-200"
+                  >
                     <div className="relative z-10">
                       <span className="text-[10px] font-bold uppercase tracking-widest text-[#A68B5B] sans-ui block">
                         Location Pin
@@ -527,7 +532,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onNavigate }) => {
 
                     {/* Subtle aesthetic background grid */}
                     <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#A68B5B_1px,transparent_1px)] [background-size:12px_12px]" />
-                  </div>
+                  </a>
                 </div>
 
               </div>
